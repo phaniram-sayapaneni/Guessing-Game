@@ -1,0 +1,11 @@
+# PROMGEN: Xilinx Prom Generator P.49d
+# Copyright (c) 1995-2012 Xilinx, Inc.  All rights reserved.
+
+SOFTWARE_VERSION P.49d
+DATE            06/24/2016 - 09:23
+SOURCE          C:\Users\padmaja\Documents\spr_comp_arch\just to make sure\final22_impact.mcs
+DEVICE          XCF02S
+DATA_WIDTH      8
+FILL_DATA       0xFF
+SIGNATURE       0x02EB0AAF
+START_ADDRESS   0x00000000 END_ADDRESS 0x00011BDB DIRECTION_UP   "C:/Users/padmaja/Documents/spr_comp_arch/comp_arch_pro1/final22.bit" 3s100ecp132

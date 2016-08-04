@@ -1,0 +1,59 @@
+#NET "led" LOC = "N4";
+NET "rst" LOC = "N3";
+NET "clk" LOC = "B8";
+#NET "led_test[0]" LOC = "M5"; state machine indicators
+#NET "led_test[1]" LOC = "M11";
+#NET "led_test[2]" LOC = "P7";
+#NET "led_test[3]" LOC = "P6";
+
+NET "led_x[0]" LOC = "N5";#### they will celebrate
+NET "led_x[1]" LOC = "N4";
+NET "led_x[2]" LOC = "P4";
+NET "led_x[3]" LOC = "G1";
+NET "led_x[4]" LOC = "M5";
+NET "led_x[5]" LOC = "M11";
+NET "led_x[6]" LOC = "P7";
+NET "led_x[7]" LOC = "P6";
+
+
+
+NET "sw[0]" LOC = "P11";
+NET "sw[1]" LOC = "L3";
+NET "sw[2]" LOC = "K3";
+NET "sw[3]" LOC = "B4";
+
+NET "cathodes[6]" LOC = "L14";
+NET "cathodes[5]" LOC = "H12";
+NET "cathodes[4]" LOC = "N14";
+NET "cathodes[3]" LOC = "N11";
+NET "cathodes[2]" LOC = "P12";
+NET "cathodes[1]" LOC = "L13";
+NET "cathodes[0]" LOC = "M12";
+
+#####anodes reversed
+NET "anodes[0]" LOC = "K14";
+NET "anodes[1]" LOC = "M13";
+NET "anodes[2]" LOC = "J12";
+NET "anodes[3]" LOC = "F12";
+
+NET "btn[1]" LOC = "M4";
+NET "btn[0]" LOC = "A7";
+NET "btn[3]" LOC = "G12";
+NET "btn[2]" LOC = "C11";
+
+NET "btn<2>" CLOCK_DEDICATED_ROUTE = FALSE;
+NET "btn<3>" CLOCK_DEDICATED_ROUTE = FALSE;
+
+
+
+NET "sw5" LOC = "F3";
+NET "sw4" LOC = "G3";
+
+
+#NET "final_led" LOC = "P4";
+#NET "ld1" LOC = "M5";
+#NET "ld2" LOC = "M11";
+#NET "ld3" LOC = "P7";
+#NET "ld4" LOC = "P6";
+
+#NET "led0" LOC = "M11";
